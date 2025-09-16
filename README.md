@@ -5,7 +5,8 @@ La finalidad de este proyecto es:
 - Diseño de una base de datos. 
 - Conformación de la base de datos.
 - Matenimiento de la base de datos. 
-- Extracción de datos para su análisis. 
+- Extracción de datos para su análisis.
+
 En vez de manejar archivos `.dat` o `.txt` manualmente, aquí se centraliza todo en una **base de datos PostgreSQL** que:
 - Evita duplicados.
 - Permite consultas rápidas (ej. fechas mínimas y máximas, promedios).
