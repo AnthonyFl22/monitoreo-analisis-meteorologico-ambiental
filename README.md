@@ -31,7 +31,7 @@ monitoreo-analisis-meteorologico-ambiental/
 
 ---
 
-## 🚀 Cómo usarlo (resumen)
+##  Cómo usarlo (resumen)
 
 ### 1. Instalar requisitos
 - **PostgreSQL 17** (con pgAdmin).  
@@ -70,7 +70,7 @@ python src/ingest.py data\CR310Series_Radiacion.dat
 python src/ingest.py data\CR310Series_Radiacion.txt
 ```
 
-👉 Puedes cargar varios archivos a la vez:
+ Puedes cargar varios archivos a la vez:
 ```powershell
 python src/ingest.py data\*.dat data\*.txt
 ```
