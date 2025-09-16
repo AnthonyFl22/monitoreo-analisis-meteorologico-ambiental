@@ -37,7 +37,7 @@ Este directorio contiene el código fuente del proyecto.
 
 ---
 
-## 🔑 Variables de entorno
+##  Variables de entorno
 
 El archivo `.env` (a partir de `.env.example`) debe contener:
 
@@ -49,11 +49,11 @@ PGUSER=monit_user
 PGPASSWORD=cambia-esta-contraseña
 ```
 
-👉 Cambiar `PGPASSWORD` por la contraseña real configurada en `init_db.py`.
+**IMPORTANTE:**  Cambiar `PGPASSWORD` por la contraseña real configurada en `init_db.py`.
 
 ---
 
-## 📊 Consultas de ejemplo
+##  Consultas de ejemplo
 
 ### Contar registros
 ```sql
@@ -75,7 +75,7 @@ ORDER BY dia;
 
 ---
 
-## ⚙️ Flujo típico
+## ⚙ Flujo típico
 
 1. `python src/init_db.py` → prepara la base.  
 2. `python src/ingest.py data\archivo.dat` → carga los datos.  
